@@ -1,0 +1,14 @@
+"DOTAAbilities"
+{
+	"item_courier"                  "REMOVE"
+    "item_tpscroll"                 "REMOVE"
+	"item_blink" 
+	{
+		"SideShop"     	"0" 
+		"SecretShop"   	"1"
+		"Misc"			"0"
+	}
+}
+
+
+

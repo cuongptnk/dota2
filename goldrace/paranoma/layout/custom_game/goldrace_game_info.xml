@@ -1,0 +1,21 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/dotastyles.css" />
+		<include src="file://{resources}/styles/custom_game/goldrace_game_info.css" />
+	</styles>
+	<Panel class="GoldRaceInfo">
+		<Panel id="Title">
+			<Label id="TitleName" text="Gold Race" />
+		</Panel>
+		<Label id="ObjectiveHeader" class="Header" html="true" text="Gold Race Description" />
+		<Panel id="ThroneRow" class="InfoRow">
+			<Label id="TipText01" class="TipText" html="true" text="1) Two team fights for 15 minutes." />
+			<Label id="TipText02" class="TipText" html="true" text="2) Each player has his/her own bank to deposit/withdraw money. Player must be at base to use bank." />
+			<Label id="TipText03" class="TipText" html="true" text="3) When a player dies, he/she drops all carrying money (not money in the bank) to the ground. Any heroes can pick up the gold." />
+			<Label id="TipText04" class="TipText" html="true" text="4) When time ends, which team has more gold in bank wins." />
+			<Label id="TipText05" class="TipText" html="true" text="5) If tie, one extra minute is added." />
+			<Label id="TipText06" class="TipText" html="true" text="6) Shops at bases only sell basic items. All other items must be purchased through the shop in the middle." />
+		</Panel>
+	</Panel>
+</root>
+

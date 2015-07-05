@@ -1,0 +1,15 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/custom_game/custom_loading_screen.css" />
+	</styles>
+	<Panel class="OverthrowLoadingRoot">
+		<Panel id="seq" >
+			<Image id="seq_bg" class="SeqBg" src="file://{images}/custom_game/loading_screen/loading_seq_bg.psd" />
+			
+			<Image id="seq_luna" class="SeqImg" src="file://{images}/custom_game/loading_screen/blood.png" />
+			<Image id="seq_juggernaut" class="SeqImg" src="file://{images}/custom_game/loading_screen/loading_seq_juggernaut.psd" />
+			<Image id="seq_coins" class="SeqImg" src="file://{images}/custom_game/loading_screen/loading_seq_coins.psd" />
+		</Panel>
+		
+	</Panel>
+</root>

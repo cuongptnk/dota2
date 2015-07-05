@@ -1,0 +1,40 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/dotastyles.css" />
+		<include src="file://{resources}/styles/custom_game/topbar.css" />
+	</styles>
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/topbar.js" />
+	</scripts>
+	<Panel class="Container">
+		
+		<Panel class="PanelScore">
+			<Label class = "BankScore" id="RadiantBank" text="Radiant Bank : 0" />
+			<Label class = "BankScore" id="DireBank" text="Dire Bank : 0" />
+		</Panel>
+		
+		<Panel  class="GoldRaceTopBar">
+			<Panel class="PanelButton">
+				<Button id="Bank" onactivate="OnBankButtonPressed()">
+					<Label class = "Button" id="BankLabel" text="Bank" />
+				</Button>
+			</Panel>
+			<Panel class="Menu" id ="BankMenu" style="visibility: collapse;">
+				<Label class = "BankChoice" id="BankAccount" text= "Your Bank Balance : 0" />
+				<RadioButton style="font-size : 30;" checked="checked" group="BankRadioButton" id="Radio1" text="Deposit"/>
+				<RadioButton style="font-size : 30;" group="BankRadioButton" id="Radio2" text="Withdraw"/>
+
+				<DropDown >
+					<Label class = "BankChoice" text="100" id="entry1"/>
+					<Label class = "BankChoice" text="500" id="entry2"/>
+					<Label class = "BankChoice" text="1000" id="entry3"/>
+					<Label class = "BankChoice" text="All" id="entry4"/>
+				</DropDown>
+				<Button id="Submit" onactivate="OnSubmitButtonPressed()">
+					<Label class="Button" id="SubmitLabel" text="Submit" />
+				</Button>
+
+			</Panel>
+		</Panel>
+	</Panel>
+</root>

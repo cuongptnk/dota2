@@ -1,0 +1,43 @@
+"DOTAAbilities"
+{
+	"item_bag_of_gold" 
+	{
+	    "ID"           "1100"
+	    "BaseClass"    "item_datadriven"
+	    "AbilityTextureName" "item_rapier"
+		"UIPickupSound" "Item.PickUpRingShop"
+	    "Model"							"models/props_gameplay/aegis.mdl"
+	    "Effect"       "particles/generic_gameplay/dropped_item.vpcf"
+
+
+	    "ItemCost"     "322"
+	    "ItemKillable" "0" 
+	    "ItemSellable" "0"
+	    "ItemPurchasable" "0"
+	    "ItemInitialCharges"			"0"
+	    "ItemDroppable" "0"
+	    "ItemQuality"		"consumable"
+	    "ItemShareability" "ITEM_NOT_SHAREABLE"
+	    "ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH"
+
+	    "SideShop"     "0" 
+	    "SecretShop"   "0"
+
+	    "ItemStackable" "0"
+	    "ItemPermanent" "0"
+
+	    "ItemCastOnPickup"				"1"
+
+	    "OnAbilityPhaseStart"
+		{
+			"RunScript"
+			{
+				"ScriptFile"		"scripts/vscripts/consume_gold.lua"
+				"Function"			"ConsumeGold"
+			}
+		}
+
+	} 
+}
+
+

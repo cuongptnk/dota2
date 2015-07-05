@@ -1,0 +1,64 @@
+.GoldRaceInfo
+{
+    width:100%;
+    flow-children: down;
+}
+ 
+Label
+{
+    font-size: 18px;
+    color: #999999;
+    vertical-align: top;
+}
+ 
+#Title
+{
+    flow-children: right;
+}
+
+
+#TitleName
+{
+    color: #cccccc;
+    font-size: 64px;
+    margin-left: 16px;
+    margin-top: 16px;
+    text-transform: uppercase;
+    vertical-align: center;
+}
+
+
+
+
+.Header
+{
+	font-size: 18px;
+    font-weight: bold;
+	margin-top: 36px;
+	text-transform: uppercase;
+}
+
+#ObjectiveHeader
+{
+	margin-top: 18px;
+}
+
+#ThroneRow
+{
+    margin-top: -40px;
+	flow-children: down-wrap;
+	
+}
+
+
+
+
+
+.TipText
+{
+	font-size: 20px;
+	margin-top: 60px;
+	text-align: left;
+}
+
+

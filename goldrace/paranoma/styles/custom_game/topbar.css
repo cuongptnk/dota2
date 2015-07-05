@@ -1,0 +1,59 @@
+.Container {
+	horizontal-align: right;
+	flow-children: right;
+	width : 96%;
+}
+
+.PanelScore {
+	horizontal-align: left;
+	width: 50%;
+	flow-children: right;
+	text-align: center;
+}
+
+#RadiantBank {
+	horizontal-align: left;
+	width: 25%;
+}
+
+#DireBank {
+	horizontal-align: left;
+	width: 25%;
+}
+
+.GoldRaceTopBar {
+	horizontal-align: right;
+	width: 25%;
+	flow-children: down;
+}
+
+
+
+.Menu {
+	horizontal-align: center;
+	margin-right : 50px;
+	flow-children: down;
+	border: 2px solid #111111FF;
+	background-color: purple;
+}
+
+.Button{
+	font-size: 30;
+}
+
+.BankChoice {
+	font-size: 25;
+}
+
+.BankScore {
+	font-size: 25;
+}
+
+#Bank  Button:focus{
+	sound: "whoosh_in";
+}
+
+.PanelButton {
+	horizontal-align: center;
+	/*width : fill-parent-flow(1);*/
+}
